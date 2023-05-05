@@ -1,7 +1,7 @@
 ---
-import "../style/global.css";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import "../style/global.css";
 ---
 
 
@@ -15,7 +15,10 @@ import Header from "../components/Header.astro";
 	</head>
 	<body>
 	<Header/>
-		<h1>Hello Astro!</h1>
+	<h1>Hello Astro!</h1>
 	<Footer/>
+	<script>
+		import "../scripts/menu.ts"
+	</script>
 	</body>
 </html>
